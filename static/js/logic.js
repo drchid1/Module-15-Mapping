@@ -2,7 +2,7 @@
 const url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
 
 /* Function to get the colour based on the depth of the earthquake
-The colours were chosen using a colour pallete from the internet */
+The colours were chosen using a colour palette from the internet */
 function getColor(depth) {
     if (depth < 10) {
         return '#83ed26'; // Lime Green Colour
